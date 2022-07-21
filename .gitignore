@@ -1,0 +1,8 @@
+minting-dapp/node_modules
+/minting-dapp/node_modules
+smart-contract/node_modules
+/smart-contract/node_modules
+
+.vscode
+/.vscode
+
