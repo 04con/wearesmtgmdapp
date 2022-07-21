@@ -67,7 +67,7 @@ export default class Dapp extends React.Component<Props, State> {
         <>
           We were not able to detect <strong>MetaMask</strong>. We value <strong>privacy and security</strong> a lot so we limit the wallet options on the DAPP.<br />
           <br />
-          But don't worry! <span className="emoji">😃</span> You can always interact with the smart-contract through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> and <strong>we do our best to provide you with the best user experience possible</strong>, even from there.<br />
+          But don't worry! You can always interact with the smart-contract through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> and <strong>we do our best to provide you with the best user experience possible</strong>, even from there.<br />
           <br />
           You can also get your <strong>Whitelist Proof</strong> manually, using the tool below.
         </>,
@@ -136,7 +136,7 @@ export default class Dapp extends React.Component<Props, State> {
     this.setState({
       merkleProofManualAddressFeedbackMessage: 
       <>
-        <strong>Congratulations!</strong> <span className="emoji">🎉</span><br />
+        <strong>Congratulations!</strong><br />
         Your Merkle Proof <strong>has been copied to the clipboard</strong>. You can paste it into <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> to claim your tokens.
       </>,
     });
@@ -181,7 +181,7 @@ export default class Dapp extends React.Component<Props, State> {
                   />
                   :
                   <div className="collection-sold-out">
-                    <h2>Tokens have been <strong>sold out</strong>! <span className="emoji">🥳</span></h2>
+                    <h2>Tokens have been <strong>sold out</strong>!</h2>
 
                     You can buy from our beloved holders on <a href={this.generateMarketplaceUrl()} target="_blank">{CollectionConfig.marketplaceConfig.name}</a>.
                   </div>
@@ -205,10 +205,10 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
             
             <div className="use-block-explorer">
-              Hey, looking for a <strong>super-safe experience</strong>? <span className="emoji">😃</span><br />
-              You can interact with the smart-contract <strong>directly</strong> through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, without even connecting your wallet to this DAPP! <span className="emoji">🚀</span><br />
+              Hey, looking for a <strong>super-safe experience</strong>?<br />
+              You can interact with the smart-contract <strong>directly</strong> through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, without even connecting your wallet to this DAPP!<br />
               <br />
-              Keep safe! <span className="emoji">❤️</span>
+              Keep safe!
             </div>
 
             {!this.isWalletConnected() || this.state.isWhitelistMintEnabled ?
