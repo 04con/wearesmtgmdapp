@@ -13,6 +13,6 @@
   },
   "scripts": {
     "build": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build",
-    "heroku-postbuild": ""
+    "heroku-postbuild": "cd ../minting-dapp; yarn run build"
   }
 }
