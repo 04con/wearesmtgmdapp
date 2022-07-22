@@ -13,7 +13,6 @@
   	"yarn": "1.22.16"
   },
   "scripts": {
-    "build": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build",
-    "heroku-postbuild": "ls; cd ./minting-dapp; yarn run build"
+    "build": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build"
   }
 }
