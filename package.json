@@ -9,10 +9,11 @@
     "url": "https://github.com/hashlips-lab/nft-erc721-collection.git"
   },
   "engines": {
+  	"node": "14.19.1",
   	"yarn": "1.22.16"
   },
   "scripts": {
     "build": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build",
-    "heroku-postbuild": "cd ../minting-dapp; yarn run build"
+    "heroku-postbuild": "ls; cd ./minting-dapp; yarn run build"
   }
 }
