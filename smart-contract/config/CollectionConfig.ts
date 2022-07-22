@@ -15,16 +15,16 @@ const CollectionConfig: CollectionConfigInterface = {
   hiddenMetadataUri: 'ipfs://QmY2bHzDtLQcVxS9byksxyxMSF8rqTscfMPtFSCTtTuGfj/hidden.json',
   maxSupply: 10000,
   whitelistSale: {
-    price: 27,
+    price: 21,
     maxMintAmountPerTx: 2,
   },
   preSale: {
-    price: 37,
+    price: 28,
     maxMintAmountPerTx: 1,
   },
   publicSale: {
-    price: 45,
-    maxMintAmountPerTx: 4,
+    price: 35,
+    maxMintAmountPerTx: 8,
   },
   contractAddress: "0xBD1dc5d0fD7edF8233DE8d886A0c616C6e6C009e",
   marketplaceIdentifier: 'We Are SMTG',
