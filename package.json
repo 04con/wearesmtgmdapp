@@ -13,6 +13,6 @@
   	"yarn": "1.22.16"
   },
   "scripts": {
-    "build": "cd smart-contract; yarn --ignore-platform; yarn compile; cd ../minting-dapp; yarn --ignore-platform; yarn build"
+    "build": "cd smart-contract; yarn --ignore-platform; cd ../minting-dapp; yarn --ignore-platform; yarn build"
   }
 }
