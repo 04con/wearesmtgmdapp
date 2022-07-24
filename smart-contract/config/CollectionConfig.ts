@@ -20,7 +20,7 @@ const CollectionConfig: CollectionConfigInterface = {
   },
   preSale: {
     price: 28,
-    maxMintAmountPerTx: 1,
+    maxMintAmountPerTx: 3,
   },
   publicSale: {
     price: 35,
