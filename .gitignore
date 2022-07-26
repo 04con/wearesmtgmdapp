@@ -1,5 +1,8 @@
 minting-dapp/node_modules
 /minting-dapp/node_modules
+minting-dapp/public
+/minting-dapp/public
+
 smart-contract/node_modules
 /smart-contract/node_modules
 
